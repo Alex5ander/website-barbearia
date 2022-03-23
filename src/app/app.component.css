@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  row-gap: 2rem;
+  padding: 2rem 0 ;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.services {
+  position: absolute;
+  top: 0;
+}
