@@ -8,14 +8,9 @@ main {
 }
 
 section {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  display:flex;
   align-items: center;
-  padding: 0 1rem;
-  position: relative;
+  flex-direction :column;
 }
 
-.services {
-  position: absolute;
-  top: 0;
-}
