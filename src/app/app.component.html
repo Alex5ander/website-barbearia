@@ -3,9 +3,9 @@
 
   <main>
 
-    <section>
-      <!-- <img src="../assets/barber-services.jpg" width="100%"/> -->
-      <div class="services">
+    <section class="services">
+      <img src="../assets/barber-services.jpg" width="100%"/>
+      <div class="services__content">
         <h3>Serviços</h3>
         <p>Corte de cabelo</p>
         <p>Barba</p>
@@ -13,13 +13,31 @@
       </div>
     </section>
 
-    <section>
+    <section class="gallery">
       <h3>Galeria</h3>
+      <div class="gallery__images">
+        <div>
+          <img src="../assets/corte_barba.jpg" width="100%" />
+        </div>
+        <div>
+          <img src="../assets/corte_barba_2.jpg" width="100%" />
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <h3>Onde estamos</h3>
+      <app-map></app-map>
     </section>
 
     <section>
-      <h3>Onde estamos</h3>
-      <app-map></app-map>
+      <h3>O que nossos clientes dizem</h3>
+      <div>
+        <img />
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illo ad sapiente odio cupiditate omnis. Amet, iure. Corporis id iusto deleniti accusantium? Aut nostrum quasi suscipit ipsum quis, blanditiis quaerat.</p>
+        </div>
+      </div>
     </section>
 
   </main>

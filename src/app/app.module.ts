@@ -7,7 +7,6 @@ import { FooterComponent } from './footer/footer.component';
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 import { environment } from 'src/environments/environment';
 import { MapComponent } from './map/map.component';
-environment
 
 @NgModule({
   declarations: [
@@ -19,7 +18,7 @@ environment
   imports: [
     BrowserModule,
     NgxMapboxGLModule.withConfig({
-      accessToken:'pk.eyJ1IjoiYWxleDVhbmRlciIsImEiOiJjbDEydmR1aXMzOGVnM2xvcHdobjd6dzlhIn0.hIqWvFm8sdNF_HbSWwpzeQ',
+      accessToken:'pk.eyJ1IjoiYWxleDVhbmRlciIsImEiOiJjbDE4cHBsNm4wZmp4M2JteGk4a2RvbDBkIn0.9bH1y2cWAKnu0NFUJo2k_g',
     })
   ],
   providers: [],
