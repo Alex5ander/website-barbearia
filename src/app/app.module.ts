@@ -7,6 +7,9 @@ import { FooterComponent } from './footer/footer.component';
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 import { environment } from 'src/environments/environment';
 import { MapComponent } from './map/map.component';
+import { CustomersComponent } from './customers/customers.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +17,9 @@ import { MapComponent } from './map/map.component';
     HeaderComponent,
     FooterComponent,
     MapComponent,
+    CustomersComponent,
+    GalleryComponent,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,
