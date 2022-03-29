@@ -1,15 +1,21 @@
-nav {
-  background-color: var( --black-coffee) !important;
-  width: 100%;
+.header {
+  padding-bottom: 50%;
+  background-color: gray;
+}
+
+.menu {
+  position: relative;
   display: flex;
-  align-items: center;
+  padding: 0rem .5rem;
+  justify-content: flex-end;
+  isolation: isolate;
 }
 
-a, button {
-  color: var(--dark-orange) !important;
+.menu__link {
+  text-decoration: none;
+  padding: 0.5rem;
 }
 
-button  {
-  font-size: 3rem;
+.menu__link:first-child {
+  margin-right: auto;
 }
-
