@@ -5,3 +5,7 @@
   --dark-orange: #F7B538;
   --black-coffee: #2f242cff;
 }
+
+* {
+  font-family: 'Arvo', serif;
+}

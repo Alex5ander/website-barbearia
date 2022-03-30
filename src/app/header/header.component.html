@@ -1,5 +1,12 @@
 <header class="header">
 
+  
+  <label class="header__mobilemenu" for="menu">    
+    <i class="bi bi-list"></i>
+  </label>
+
+  <input hidden type="checkbox" id="menu" />
+  
   <nav class="menu">
     <a class="menu__link" href="#" >Home</a>
     <a class="menu__link" href="#gallery" >Galeria</a>
@@ -8,10 +15,10 @@
     <a class="menu__link" href="#" >Quem somos</a>
   </nav>
 
-  <form>
-    <label>Field</label><br>
-    <input placeholder="" /><br>
-    <button type="button">Enviar</button>
-  </form>
+
+  <div class="header__cover">
+    <img src="../../assets/pexels-alexandre-saraiva-carniat low.jpg" width="100%" />
+    <app-agendamento></app-agendamento>
+  </div>
 </header>
           
