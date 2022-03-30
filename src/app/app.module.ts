@@ -10,7 +10,6 @@ import { MapComponent } from './map/map.component';
 import { CustomersComponent } from './customers/customers.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ServicesComponent } from './services/services.component';
-import { AgendamentoComponent } from './agendamento/agendamento.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,6 @@ import { AgendamentoComponent } from './agendamento/agendamento.component';
     CustomersComponent,
     GalleryComponent,
     ServicesComponent,
-    AgendamentoComponent,
   ],
   imports: [
     BrowserModule,
