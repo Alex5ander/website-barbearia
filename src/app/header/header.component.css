@@ -46,7 +46,7 @@
   transition: .2s ease-in-out;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 640px) {
   .header__mobilemenu {
     display: none;
   }
