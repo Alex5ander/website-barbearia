@@ -6,6 +6,24 @@
   position: relative;
 }
 
+.header__cover::after {
+  content: "Barbearia";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: linear-gradient(135deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .1));
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 .header__mobilemenu {
   display: inline-flex;
   padding: 0.5rem;
@@ -25,6 +43,18 @@
   z-index: 100;
   display: none;
   flex-direction: column;
+  transition: .2s ease-in-out;
+}
+
+@media (min-width: 992px) {
+  .header__mobilemenu {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .menu__link {
