@@ -1,4 +1,6 @@
+.map {
+  margin: 1rem;
+}
 mgl-map {
-  width: 100%;
   aspect-ratio: 1;
 }
