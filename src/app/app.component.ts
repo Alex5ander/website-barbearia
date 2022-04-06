@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit{
   title = 'website-barbearia';
   url = 'http://www.lucasreno.kinghost.net/barbearia';
+  clientes = [];
 
   constructor (public httpClient : HttpClient) {
 
