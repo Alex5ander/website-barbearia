@@ -10,6 +10,12 @@ main {
   margin: auto;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-direction: column;
+}
 
 @media (min-width: 768px){
   main {

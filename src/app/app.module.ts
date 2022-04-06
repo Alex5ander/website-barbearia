@@ -10,6 +10,7 @@ import { environment } from 'src/environments/environment';
 import { MapComponent } from './map/map.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ServicesComponent } from './services/services.component';
+import { ClientsComponent } from './clients/clients.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ServicesComponent } from './services/services.component';
     MapComponent,
     GalleryComponent,
     ServicesComponent,
+    ClientsComponent,
   ],
   imports: [
     BrowserModule,
