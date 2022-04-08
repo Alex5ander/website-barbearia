@@ -1,18 +1,5 @@
-<caption>
-  Fila
-</caption>
-<table>
-  <thead>
-    <tr>
-      <th>Nome</th>
-      <th>Serviço</th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <tr *ngFor="let c of clientes" class="cliente">
-      <td>{{ c.cliente }}</td>
-      <td>{{ servico[c.servico] }}</td>
-    </tr>
-  </tbody>
-</table>
+<tr *ngFor="let c of clientes" class="cliente">
+  <td>{{ c.cliente }}</td>
+  <td>{{ servico[c.servico] }}</td>
+</tr>
