@@ -26,6 +26,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "scripts": [
+              "./node_modules/bootstrap/js/dist/popover.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ],
             "assets": [
