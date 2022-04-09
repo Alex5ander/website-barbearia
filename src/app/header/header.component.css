@@ -7,16 +7,6 @@
   position: relative;
 }
 
-.logo {
-  position: absolute;
-  top: 0;
-  margin: auto;
-  left: 0;
-  right: 0;
-  z-index: 99999;
-  bottom: 0;
-}
-
 .header__cover::after {
   content: "";
   position: absolute;
@@ -46,7 +36,7 @@
   background-color: transparent;
 }
 
-.header__mobilemenu + input:checked + .menu{
+.header__mobilemenu+input:checked+.menu {
   display: flex;
 }
 

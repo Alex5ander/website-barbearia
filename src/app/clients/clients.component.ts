@@ -21,9 +21,9 @@ enum Servico {
 })
 export class ClientsComponent implements OnInit {
   url = 'http://www.lucasreno.kinghost.net/barbearia';
-  clientes : Cliente[] = [];
-  servico : typeof Servico = Servico;
-  constructor(public httpClient : HttpClient) { }
+  clientes: Cliente[] = [];
+  servico: typeof Servico = Servico;
+  constructor(public httpClient: HttpClient) { }
 
   list() {
     this.httpClient.get<Cliente[]>(this.url).subscribe(resposta => {

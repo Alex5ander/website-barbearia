@@ -1,0 +1,5 @@
+@media (min-width: 640px) {
+    .carousel {
+        width: 50%;
+    }
+}

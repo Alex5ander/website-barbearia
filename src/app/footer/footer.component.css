@@ -1,0 +1,13 @@
+footer {
+    background-color: var(--black-coffee);
+}
+
+ul,
+li {
+    background-color: var(--black-coffee);
+}
+
+.logo:hover,
+.bi:hover {
+    color: #fff;
+}

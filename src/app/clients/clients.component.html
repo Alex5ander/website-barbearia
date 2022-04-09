@@ -1,5 +1,4 @@
-
-<tr *ngFor="let c of clientes" class="cliente">
-  <td>{{ c.cliente }}</td>
-  <td>{{ servico[c.servico] }}</td>
-</tr>
+<ul *ngFor="let c of clientes" class="cliente">
+  <li>{{ c.cliente }}</li>
+  <li>{{ servico[c.servico] }}</li>
+</ul>
