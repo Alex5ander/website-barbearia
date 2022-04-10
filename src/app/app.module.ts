@@ -11,6 +11,8 @@ import { MapComponent } from './map/map.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ServicesComponent } from './services/services.component';
 import { ClientsComponent } from './clients/clients.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,13 +23,15 @@ import { ClientsComponent } from './clients/clients.component';
     GalleryComponent,
     ServicesComponent,
     ClientsComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     NgxMapboxGLModule.withConfig({
       accessToken:'pk.eyJ1IjoiYWxleDVhbmRlciIsImEiOiJjbDE4cHBsNm4wZmp4M2JteGk4a2RvbDBkIn0.9bH1y2cWAKnu0NFUJo2k_g',
     }),
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

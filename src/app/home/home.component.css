@@ -1,0 +1,9 @@
+.main-img {
+    width: 50%;
+}
+
+@media (min-width: 640px) {
+    .main-img {
+        width: 25%;
+    }
+}
