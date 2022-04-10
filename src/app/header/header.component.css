@@ -14,7 +14,7 @@
 
 .header__mobilemenu {
   font-size: 2rem;
-  color: var(--dark-orange);
+  color: #fff;
   background-color: transparent;
 }
 
@@ -46,7 +46,7 @@
 .menu__link {
   text-decoration: none;
   padding: 0.5rem;
-  color: var(--dark-orange);
+  color: #fff;
 }
 
 .menu__link:first-child {
