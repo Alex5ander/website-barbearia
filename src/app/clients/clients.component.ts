@@ -32,7 +32,8 @@ export class ClientsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    setInterval(() => this.list(), 1000);
+    this.list();
+    setInterval(() => this.list(), 5000);
   }
 
 }

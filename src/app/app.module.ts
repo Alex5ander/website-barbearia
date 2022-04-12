@@ -9,7 +9,6 @@ import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 import { environment } from 'src/environments/environment';
 import { MapComponent } from './map/map.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { ServicesComponent } from './services/services.component';
 import { ClientsComponent } from './clients/clients.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
@@ -21,7 +20,6 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     MapComponent,
     GalleryComponent,
-    ServicesComponent,
     ClientsComponent,
     HomeComponent,
   ],
