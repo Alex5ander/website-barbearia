@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="36"
+   id="svg6390"
+   version="1.1"
+   width="36"
+   sodipodi:docname="trimmer.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="10.24"
+     inkscape:cx="16.109092"
+     inkscape:cy="5.1197621"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6390" />
+  <defs
+     id="defs6392" />
+  <g
+     id="layer1"
+     transform="matrix(1.6764449,0,0,1.6764449,-12.510137,-1715.8821)">
+    <g
+       id="g3"
+       transform="translate(-7,1019.3622)">
+      <path
+         d="M 21.0117,4.5 V 6 H 20 v 0.32226 0.002 c 0,0.25006 0.023,0.44658 0.033,0.67578 h 4.9785 1 4.9434 c 0.01,-0.22985 0.033,-0.42693 0.033,-0.67774 V 6.3163 5.9999 h -0.9766 v -1.5 h -1 v 1.5 h -1 v -1.5 h -1 v 1.5 h -0.5 -0.5 v -1.5 h -1 v 1.5 h -0.5 -0.5 v -1.5 h -1 v 1.5 h -1 v -1.5 h -1 z M 20.0879,8 c 0.099,0.90323 0.2768,1.6194 0.4824,2.23242 v 0.002 c 0.027,0.0424 0.046,0.0885 0.059,0.13672 0.034,0.12535 0.084,0.23029 0.123,0.34961 0.071,0.18096 0.1399,0.37097 0.2129,0.53516 0.014,0.0322 0.026,0.058 0.041,0.0898 1.1551,-0.9305 2.8339,-1.3457 4.5058,-1.3457 1.6679,0 3.3431,0.41228 4.4981,1.33789 0.012,-0.0278 0.023,-0.05 0.035,-0.0781 0.096,-0.22042 0.1893,-0.46656 0.2813,-0.71875 0.017,-0.0578 0.041,-0.11162 0.057,-0.16992 0.01,-0.0393 0.023,-0.0773 0.041,-0.11328 0.2042,-0.61836 0.3805,-1.34269 0.4785,-2.25781 H 20.0885 Z m 5.4238,3 c -1.6068,0 -3.1929,0.47507 -4.0644,1.2832 0.02,0.043 0.042,0.09 0.062,0.13281 0.3306,0.55701 0.6965,1.06167 1.0527,1.55664 0.7393,1.0273 1.457,2.05703 1.457,3.4336 v 4.45898 c 0,0.66096 0.4613,1.13672 0.9981,1.13672 h 0.998 c 0.5368,0 0.9981,-0.47572 0.9981,-1.13672 v -4.45898 c 0,-0.99914 0.7061,-1.90773 1.4336,-3.05469 0.2862,-0.45137 0.5802,-0.93966 0.8613,-1.44727 0.077,-0.20135 0.1736,-0.41937 0.2676,-0.62109 C 28.7041,11.47507 27.1181,11 25.5112,11 Z m 0,1 c 0.8224,0 1.5,0.67765 1.5,1.5 v 1 c 0,0.82235 -0.6776,1.5 -1.5,1.5 -0.8223,0 -1.5,-0.67765 -1.5,-1.5 v -1 c 0,-0.82235 0.6777,-1.5 1.5,-1.5 z m 0,1 c -0.2856,0 -0.5,0.21435 -0.5,0.5 v 1 c 0,0.28565 0.2144,0.5 0.5,0.5 0.2857,0 0.5,-0.21435 0.5,-0.5 v -1 c 0,-0.28565 -0.2143,-0.5 -0.5,-0.5 z m -3.4961,1.93555 V 22.5 c 0,1.39366 1.1064,2.5 2.5,2.5 h 2 c 1.3937,0 2.5,-1.10634 2.5,-2.5 v -7.14649 c -0.5681,0.92465 -1.0019,1.70739 -1.0019,2.05274 v 4.45898 c 0,1.15221 -0.8751,2.13672 -1.9981,2.13672 h -0.998 c -1.123,0 -1.9981,-0.98447 -1.9981,-2.13672 v -4.45898 c 0,-0.89532 -0.4171,-1.62862 -1.0039,-2.4707 z"
+         id="path7045"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:0.99;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:accumulate" />
+    </g>
+  </g>
+</svg>

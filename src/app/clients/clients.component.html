@@ -1,15 +1,20 @@
-<div class="py-2">
+<div class="py-2 d-flex flex-column shadow-sm">
   <h3 class="text-center">Fila de clientes em tempo real</h3>
 
-  <div class="row justify-content-space-between ">
-    <div class="col">Nome: </div><div class="col">Serviço:</div>
+ <div class="w-75 mx-auto">
+  <div class="d-flex gap-4 justify-content-space-between">
+    <div class="col">Nome: </div>
+    <div class="col">Serviço:</div>
   </div>
 
-  <div *ngFor="let c of clientes" class="row justify-content-space-between ">
-    <div class="col">{{ c.cliente }}</div><div class="col">{{ servico[c.servico] }}</div>
+  <div *ngFor="let c of clientes" class="d-flex gap-4 justify-content-space-between">
+    <div class="col">{{ c.cliente }}</div>
+    <div class="col">{{ servico[c.servico] }}</div>
   </div>
+ </div>
 
-  <p *ngIf="clientes.length === 0" >
-    Nenhum cliente na fila
-  </p>
+  <div *ngIf="clientes.length !== 0" class="my-2 p-3 text-center">
+    <p>Nenhum cliente na fila</p>
+    <button class="btn btn-success">Seja um dos primeiros da fila</button>
+  </div>
 </div>

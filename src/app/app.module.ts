@@ -12,6 +12,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ClientsComponent } from './clients/clients.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HomeComponent } from './home/home.component';
     GalleryComponent,
     ClientsComponent,
     HomeComponent,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,

@@ -2,10 +2,21 @@
   background-color: var(--black-coffee);
 }
 
-.overlay::after{ 
+.promo {
+  display: none;
+}
+
+@media (min-width: 576px){
+  .promo {
+    display: block;
+  }
+}
+
+.overlay { 
   content: "";
   position: absolute;
-  background: linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .1));
+  background: #000;
+  opacity: 0.7;
   top: 0;
   left: 0;
   right: 0;
